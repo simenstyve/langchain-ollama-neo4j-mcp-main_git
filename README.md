@@ -8,12 +8,16 @@ This project demonstrates a production-ready AI Solution Delivery framework that
 For mission-driven organizations like Human Rights Watch, this architecture enables researchers to query vast webs of evidence, legal precedents, and field reports with high factual accuracy and traceability.
 
 Key Capabilities
+
 Agentic Reasoning: 
 Uses LangGraph ReAct agents to autonomously decide when to query the knowledge graph or use internal memory tools.
+
 Knowledge Grounding (RAG): 
 Connects Ollama (Llama 3) to a Neo4j backend to ensure responses are grounded in structured facts, significantly reducing hallucinations.
+
 Multi-Server Orchestration: 
 Utilizes a MultiServerMCPClient to manage separate tools for Cypher query generation, data modeling, and persistent memory.
+
 Human-Centric Interface: 
 A FastAPI backend and Streamlit frontend allow non-technical stakeholders to interact with complex graph data visually and through natural language.
 
